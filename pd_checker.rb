@@ -22,8 +22,6 @@ def palidrome?(user_input)
     reverse = reverse + ui[count]
   end
 
-  binding.pry
-
   if ui == reverse
     puts ui + " is a palidrome"
     exit
